@@ -20,6 +20,9 @@
 # 5 = liquid food
 # 6 = long goods (planks, steel (any flat-bed))
 # 7 = fabric (or any lightweight packed goods - crates, sacks)
+# 8 = FreshFish
+# 9 = livestock
+# 10 = Autos
 #
 # units:
 #          = none (no units displayed)
@@ -147,7 +150,7 @@ weight_per_unit=1
 obj=good
 name=livestock
 metric=head
-catg=0
+catg=9
 #
 #value=35
 value=56
@@ -174,7 +177,7 @@ weight_per_unit=1
 obj=good
 name=Autos
 metric=cars
-catg=0
+catg=10
 #
 #value=225
 value=284
@@ -195,7 +198,7 @@ weight_per_unit=1800
 obj=good
 name=FreshFish
 metric=paletten
-catg=0
+catg=8
 #
 value=133
 #
