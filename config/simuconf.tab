@@ -1170,7 +1170,7 @@ server_pakurl = http://bridgewater-brunel.me.uk/downloads/nightly/pakset/pak128.
 # intro_month[1][1] = 4
 
 livery_scheme[0] = British-Railways
-livery_scheme_wt[0] = track
+livery_scheme_wt[0][0] = track
 retire_year[0] = 1986
 retire_month[0] = 6
 livery[0][0] = BR-Early
@@ -1191,7 +1191,7 @@ intro_year[0][4] = 1979
 intro_month[0][4] = 6
 
 livery_scheme[1] = LNWR
-livery_scheme_wt[1] = track
+livery_scheme_wt[1][0] = track
 retire_year[1] = 1923
 retire_month[1] = 1
 livery[1][0] = LNWR-Early
@@ -1202,7 +1202,7 @@ intro_year[1][1] = 1873
 intro_month[1][1] = 4
 
 livery_scheme[2] = LBSCR
-livery_scheme_wt[2] = track
+livery_scheme_wt[2][0] = track
 retire_year[2] = 1923
 retire_month[2] = 1
 livery[2][0] = LBSCR-Early
@@ -1222,7 +1222,7 @@ intro_year[2][4] = 1911
 intro_month[2][4] = 4
 
 livery_scheme[3] = LMS
-livery_scheme_wt[3] = track
+livery_scheme_wt[3][0] = track
 retire_year[3] = 1948
 retire_month[3] = 1
 livery[3][0] = LMS-Standard
@@ -1230,7 +1230,7 @@ intro_year[3][0] = 1923
 intro_month[3][0] = 1
 
 livery_scheme[4] = SR
-livery_scheme_wt[4] = track
+livery_scheme_wt[4][0] = track
 retire_year[4] = 1948
 retire_month[4] = 1
 livery[4][0] = SR-Olive-Green
@@ -1241,7 +1241,7 @@ intro_year[4][1] = 1937
 intro_month[4][1] = 9
 
 livery_scheme[5] = MR
-livery_scheme_wt[5] = track
+livery_scheme_wt[5][0] = track
 retire_year[5] = 1923
 retire_month[5] = 1
 livery[5][0] = MR-Early
@@ -1252,7 +1252,7 @@ intro_year[5][1] = 1883
 intro_month[5][1] = 6
 
 livery_scheme[6] = Royal-Mail
-livery_scheme_wt[6] = track
+livery_scheme_wt[6][0] = track
 retire_year[6] = 1995
 retire_month[6] = 12
 livery[6][0] = RM-Early
@@ -1266,7 +1266,7 @@ intro_year[6][2] = 1991
 intro_month[6][2] = 1
 
 livery_scheme[7] = Inter-City
-livery_scheme_wt[7] = track
+livery_scheme_wt[7][0] = track
 retire_year[7] = 1995
 retire_month[7] = 4
 livery[7][0] = IC-Executive
@@ -1277,7 +1277,7 @@ intro_year[7][1] = 1987
 intro_month[7][1] = 5
 
 livery_scheme[8] = LNER
-livery_scheme_wt[8] = track
+livery_scheme_wt[8][0] = track
 retire_year[8] = 1948
 retire_month[8] = 1
 livery[8][0] = LNER-Standard
@@ -1285,7 +1285,7 @@ intro_year[8][0] = 1923
 intro_month[8][0] = 1
 
 livery_scheme[9] = LNER-Streamliner
-livery_scheme_wt[9] = track
+livery_scheme_wt[9][0] = track
 retire_year[9] = 1948
 retire_month[9] = 1
 livery[9][0] = LNER-Silver-Jubilee
@@ -1296,7 +1296,8 @@ intro_year[9][1] = 1937
 intro_month[9][1] = 7
 
 livery_scheme[10] = First-Group
-#livery_scheme_wt[10] = none
+livery_scheme_wt[10][0] = track
+livery_scheme_wt[10][1] = road
 retire_year[10] = 2500
 retire_month[10] = 1
 livery[10][0] = GWT
@@ -1316,7 +1317,7 @@ intro_year[10][4] = 2015
 intro_month[10][4] = 9
 
 livery_scheme[11] = ECML-Franchise
-livery_scheme_wt[11] = track
+livery_scheme_wt[11][0] = track
 retire_year[11] = 2500
 retire_month[11] = 1
 livery[11][0] = GNER
@@ -1333,7 +1334,7 @@ intro_year[11][3] = 2015
 intro_month[11][3] = 3
 
 livery_scheme[12] = Grand-Central
-livery_scheme_wt[12] = track
+livery_scheme_wt[12][0] = track
 retire_year[12] = 2500
 retire_month[12] = 1
 livery[12][0] = GC-Original
@@ -1344,7 +1345,7 @@ intro_year[12][1] = 2010
 intro_month[12][1] = 5
 
 livery_scheme[13] = Wartime-Austerity
-livery_scheme_wt[13] = track
+livery_scheme_wt[13][0] = track
 retire_year[13] = 1945
 retire_month[13] = 9
 livery[13][0] = WW1-Austerity
@@ -1355,7 +1356,7 @@ intro_year[13][1] = 1939
 intro_month[13][1] = 9
 
 livery_scheme[14] = NSE
-livery_scheme_wt[14] = track
+livery_scheme_wt[14][0] = track
 retire_year[14] = 1995
 retire_month[14] = 4
 livery[14][0] = Jaffa-Cake
@@ -1369,7 +1370,7 @@ intro_year[14][2] = 1989
 intro_month[14][2] = 9
 
 livery_scheme[15] = Regional-Railways
-livery_scheme_wt[15] = track
+livery_scheme_wt[15][0] = track
 retire_year[15] = 1995
 retire_month[15] = 4
 livery[15][0] = Regional-Railways-Standard
@@ -1377,7 +1378,7 @@ intro_year[15][0] = 1986
 intro_month[15][0] = 6
 
 livery_scheme[16] = London-Transport
-livery_scheme_wt[16] = road
+livery_scheme_wt[16][0] = road
 retire_year[16] = 2500
 retire_month[16] = 1
 livery[16][0] = UERL
@@ -1401,7 +1402,7 @@ intro_year[16][5] = 2007
 intro_month[16][5] = 1
 
 livery_scheme[17] = Island-Line
-livery_scheme_wt[17] = track
+livery_scheme_wt[17][0] = track
 retire_year[17] = 2500
 retire_month[17] = 1
 livery[17][0] = Dinasours
@@ -1412,7 +1413,7 @@ intro_year[17][1] = 2007
 intro_month[17][1] = 1
 
 livery_scheme[18] = GNR
-livery_scheme_wt[18] = track
+livery_scheme_wt[18][0] = track
 retire_year[18] = 1923
 retire_month[18] = 1
 livery[18][0] = GNR-early
@@ -1426,7 +1427,7 @@ intro_month[18][1] = 1
 # liveries of non-London 'buses
 # TODO: Replace this with specific livery schemes.
 livery_scheme[19] = Regional
-livery_scheme_wt[19] = road
+livery_scheme_wt[19][0] = road
 retire_year[19] = 2500
 retire_month[19] = 1
 livery[19][0] = Non-London
@@ -1439,7 +1440,7 @@ intro_month[19][0] = 1
 # absorbed other companies, rahter than being a separate predecessor.
 # Assume all coaches varnished unless otherwise stated.
 livery_scheme[20] = GER
-livery_scheme_wt[20] = road
+livery_scheme_wt[20][0] = road
 retire_year[20] = 1923
 retire_month[20] = 1
 # Locomotives light/pea green with black bands, chocolate coloured frames
@@ -1467,7 +1468,7 @@ intro_year[20][4] = 1919
 intro_month[20][4] = 1
 
 livery_scheme[21] = FR
-livery_scheme_wt[21] = narrowgauge_track
+livery_scheme_wt[21][0] = narrowgauge_track
 retire_year[21] = 2500
 retire_month[21] = 1
 livery[21][0] = FR-Royal-Purple
@@ -1493,7 +1494,7 @@ intro_year[21][5] = 1991
 intro_month[21][5] = 2
 
 livery_scheme[22] = LMR
-livery_scheme_wt[22] = track
+livery_scheme_wt[22][0] = track
 retire_year[22] = 1846
 retire_month[22] = 1
 livery[22][0] = LMR-Standard
@@ -1501,7 +1502,7 @@ intro_year[22][0] = 1829
 intro_month[22][0] = 8
 
 livery_scheme[23] = Sealink
-livery_scheme_wt[23] = water
+livery_scheme_wt[23][0] = water
 retire_year[23] = 1996
 retire_month[23] = 4
 livery[23][0] = BTC
@@ -1522,7 +1523,7 @@ intro_year[23][4] = 1991
 intro_month[23][4] = 6
 
 livery_scheme[24] = Townsend-Thoresen
-livery_scheme_wt[24] = water
+livery_scheme_wt[24][0] = water
 retire_year[24] = 1987
 retire_month[24] = 10
 livery[24][0] = TT-Green
@@ -1533,7 +1534,7 @@ intro_year[24][1] = 1976
 intro_month[24][1] = 2
 
 livery_scheme[25] = P&O
-livery_scheme_wt[25] = water
+livery_scheme_wt[25][0] = water
 retire_year[25] = 2500
 retire_month[25] = 1
 livery[25][0] = P&O-Early
@@ -1545,7 +1546,7 @@ intro_year[25][1] = 1987
 intro_month[25][1] = 10
 
 livery_scheme[26] = Hoverlloyd
-livery_scheme_wt[26] = water
+livery_scheme_wt[26][0] = water
 retire_year[26] = 1981
 retire_month[26] = 11
 livery[26][0] = Hoverlloyd-Standard
@@ -1553,7 +1554,7 @@ intro_year[26][0] = 1966
 intro_month[26][0] = 4
 
 livery_scheme[26] = Seaspeed
-livery_scheme_wt[26] = water
+livery_scheme_wt[26][0] = water
 retire_year[26] = 1981
 retire_month[26] = 11
 livery[26][0] = Seaspeed-early
@@ -1565,7 +1566,7 @@ intro_year[26][1] = 1977
 intro_month[26][1] = 11
 
 livery_scheme[27] = Hoverspeed
-livery_scheme_wt[27] = water
+livery_scheme_wt[27][0] = water
 retire_year[27] = 2000
 retire_month[27] = 10
 livery[27][0] = Hoverspeed-early
@@ -1577,7 +1578,7 @@ intro_year[27][1] = 1993
 intro_month[27][1] = 12
 
 livery_scheme[28] = Hovertravel
-livery_scheme_wt[28] = water
+livery_scheme_wt[28][0] = water
 retire_year[28] = 2500
 retire_month[28] = 1
 livery[28][0] = Hovertravel-standard
@@ -1588,7 +1589,7 @@ intro_month[28][0] = 8
 # small road freight vehicles or aicraft
 # with charter or generic liveries.
 livery_scheme[29] = Private-operator
-livery_scheme_wt[29] = water
+livery_scheme_wt[29][0] = water
 retire_year[29] = 2500
 retire_month[29] = 1
 livery[29][0] = Private
@@ -1596,7 +1597,7 @@ intro_year[29][0] = 1750
 intro_month[29][0] = 1
 
 livery_scheme[30] = British-Waterways
-livery_scheme_wt[30] = water
+livery_scheme_wt[30][0] = water
 retire_year[30] = 2500
 retire_month[30] = 1
 livery[30][0] = BW-Standard
@@ -1604,7 +1605,7 @@ intro_year[30][0] = 1948
 intro_month[30][0] = 1
 
 livery_scheme[31] = Scotrail
-livery_scheme_wt[31] = track
+livery_scheme_wt[31][0] = track
 retire_year[31] = 2500
 retire_month[31] = 1
 livery[31][0] = Scotrail-original
@@ -1621,7 +1622,7 @@ intro_year[31][3] = 2010
 intro_month[31][3] = 6
 
 livery_scheme[32] = Blackpool
-livery_scheme_wt[32] = tram_track
+livery_scheme_wt[32][0] = tram_track
 retire_year[32] = 2500
 retire_month[32] = 1
 livery[32][0] = Blackpool-red
@@ -1639,7 +1640,8 @@ intro_month[32][3] = 4
 
 # Including SYPTE
 livery_scheme[33] = Sheffield
-#livery_scheme_wt[33] = none
+livery_scheme_wt[33][0] = road
+livery_scheme_wt[33][1] = tram_track
 retire_year[33] = 2999
 retire_month[33] = 1
 livery[33][0] = Sheffield-dark
@@ -1657,7 +1659,7 @@ intro_year[33][3] = 1994
 intro_month[33][3] = 3
 
 livery_scheme[34] = LCC
-livery_scheme_wt[34] = tram_track
+livery_scheme_wt[34][0] = tram_track
 retire_year[34] = 1933
 retire_month[34] = 7
 livery[34][0] = LCC-plum
@@ -1668,7 +1670,7 @@ intro_year[34][1] = 1926
 intro_month[34][1] = 3
 
 livery_scheme[35] = LUT
-livery_scheme_wt[35] = tram_track
+livery_scheme_wt[35][0] = tram_track
 retire_year[35] = 1933
 retire_month[35] = 7
 # There were other liveries before vermillion, but information on them is scarce.
@@ -1678,7 +1680,7 @@ intro_year[35][0] = 1900
 intro_month[35][0] = 1
 
 livery_scheme[36] = Tramlink
-livery_scheme_wt[36] = tram_track
+livery_scheme_wt[36][0] = tram_track
 retire_year[36] = 2500
 retire_month[36] = 1
 livery[36][0] = Tramlink-red
@@ -1689,7 +1691,7 @@ intro_year[36][1] = 2006
 intro_month[36][1] = 5
 
 livery_scheme[37] = Metrolink
-livery_scheme_wt[37] = tram_track
+livery_scheme_wt[37][0] = tram_track
 retire_year[37] = 2500
 retire_month[37] = 1
 livery[37][0] = Metrolink-original
@@ -1700,7 +1702,9 @@ intro_year[37][1] = 2008
 intro_month[37][1] = 7
 
 livery_scheme[38] = WMPTE
-#livery_scheme_wt[38] = none
+livery_scheme_wt[38][0] = road
+livery_scheme_wt[38][1] = track
+livery_scheme_wt[38][2] = tram_track
 retire_year[38] = 2999
 retire_month[38] = 1
 livery[38][0] = Birmingham-Corporation
@@ -1726,7 +1730,7 @@ intro_year[38][6] = 2008
 intro_month[38][6] = 7
 
 livery_scheme[39] = BOAC
-livery_scheme_wt[39] = air
+livery_scheme_wt[39][0] = air
 retire_year[39] = 1974
 retire_month[39] = 3
 livery[39][0] = BOAC-unpainted
@@ -1737,7 +1741,7 @@ intro_year[39][1] = 1946
 intro_month[39][1] = 1
 
 livery_scheme[40] = BEA
-livery_scheme_wt[40] = air
+livery_scheme_wt[40][0] = air
 retire_year[40] = 1974
 retire_month[40] = 3
 livery[40][0] = BEA-unpainted
@@ -1754,7 +1758,7 @@ intro_year[40][3] = 1969
 intro_month[40][3] = 1
 
 livery_scheme[41] = BA
-livery_scheme_wt[41] = air
+livery_scheme_wt[41][0] = air
 retire_year[41] = 2500
 retire_month[41] = 1
 livery[41][0] = BA-Union-flag
@@ -1768,7 +1772,7 @@ intro_year[41][2] = 1997
 intro_month[41][2] = 4
 
 livery_scheme[42] = Dan-Air
-livery_scheme_wt[42] = air
+livery_scheme_wt[42][0] = air
 retire_year[42] = 1992
 retire_month[42] = 11
 livery[42][0] = Dan-Air-Early
@@ -1791,7 +1795,7 @@ intro_year[42][3] = 1981
 intro_month[42][3] = 5
 
 livery_scheme[43] = Metropolitan
-livery_scheme_wt[43] = track
+livery_scheme_wt[43][0] = track
 retire_year[43] = 1933
 retire_month[43] = 1
 livery[43][0] = Metropolitan-Green
@@ -1806,7 +1810,7 @@ intro_year[43][2] = 1915
 intro_month[43][2] = 7
 
 livery_scheme[44] = District
-livery_scheme_wt[44] = track
+livery_scheme_wt[44][0] = track
 retire_year[44] = 1933
 retire_month[44] = 1
 livery[44][0] = District-Standard
@@ -1814,7 +1818,7 @@ intro_year[44][0] = 1869
 intro_month[44][0] = 4
 
 livery_scheme[45] = LYR
-livery_scheme_wt[45] = track
+livery_scheme_wt[45][0] = track
 retire_year[45] = 1923
 retire_month[45] = 1
 livery[45][0] = LYR-Dark-Green
@@ -1828,7 +1832,7 @@ intro_year[45][2] = 1883
 intro_month[45][2] = 8
 
 livery_scheme[46] = LTSR
-livery_scheme_wt[46] = track
+livery_scheme_wt[46][0] = track
 retire_year[46] = 1912
 retire_month[46] = 8
 livery[46][0] = LTSR-standard
@@ -1838,7 +1842,7 @@ intro_month[46][0] = 1
 # https://en.wikipedia.org/wiki/London_and_South_Western_Railway#Locomotive_engineers.2C_works_and_corporate_liveries
 # See also Carter, p. 127 onwards
 livery_scheme[47] = LSWR
-livery_scheme_wt[47] = track
+livery_scheme_wt[47][0] = track
 retire_year[47] = 1923
 retire_month[47] = 1
 # Details of carriage liveries hard to obtain for the early period:
@@ -1873,7 +1877,7 @@ intro_year[47][7] = 1914
 intro_month[47][7] = 3
 
 livery_scheme[48] = Mersey-Railway
-livery_scheme_wt[48] = track
+livery_scheme_wt[48][0] = track
 retire_year[48] = 1948
 retire_month[48] = 1
 livery[48][0] = Mersey-Railway-Standard
@@ -1882,7 +1886,7 @@ intro_month[48][0] = 1
 
 # http://www.lner.info/co/NER/livery.php
 livery_scheme[49] = North-Eastern
-livery_scheme_wt[49] = track
+livery_scheme_wt[49][0] = track
 retire_year[49] = 1923
 retire_month[49] = 1
 livery[49][0] = NER-early
@@ -1897,7 +1901,7 @@ intro_year[49][2] = 1903
 intro_month[49][2] = 10
 
 livery_scheme[50] = SECR
-livery_scheme_wt[50] = track
+livery_scheme_wt[50][0] = track
 retire_year[50] = 1923
 retire_month[50] = 1
 livery[50][0] = SECR-standard
@@ -1905,7 +1909,7 @@ intro_year[50][0] = 1899
 intro_month[50][0] = 4
 
 livery_scheme[51] = Colas-Rail
-livery_scheme_wt[51] = track
+livery_scheme_wt[51][0] = track
 retire_year[51] = 2999
 retire_month[51] = 9
 livery[51][0] = Colas-Standard
@@ -1913,7 +1917,7 @@ intro_year[51][0] = 2007
 intro_month[51][0] = 9
 
 livery_scheme[52] = Freightliner
-livery_scheme_wt[52] = track
+livery_scheme_wt[52][0] = track
 retire_year[52] = 2999
 retire_month[52] = 9
 livery[52][0] = Freightliner-early
@@ -1925,7 +1929,7 @@ intro_month[52][1] = 9
 
 # There are multiple DRS liveries, but it is very hard to find details of them. 
 livery_scheme[53] = DRS
-livery_scheme_wt[53] = track
+livery_scheme_wt[53][0] = track
 retire_year[53] = 2999
 retire_month[53] = 9
 livery[53][0] = DRS-Standard
@@ -1933,7 +1937,7 @@ intro_year[53][0] = 1995
 intro_month[53][0] = 4
 
 livery_scheme[54] = Chiltern
-livery_scheme_wt[54] = track
+livery_scheme_wt[54][0] = track
 retire_year[54] = 2999
 retire_month[54] = 9
 livery[54][0] = Chiltern-Standard
@@ -1944,7 +1948,7 @@ intro_year[54][1] = 2011
 intro_month[54][1] = 9
 
 livery_scheme[55] = London-Midland
-livery_scheme_wt[55] = track
+livery_scheme_wt[55][0] = track
 retire_year[55] = 2999
 retire_month[55] = 9
 livery[55][0] = LM-Standard
@@ -1952,7 +1956,7 @@ intro_year[55][0] = 2007
 intro_month[55][0] = 11
 
 livery_scheme[56] = Northern-Franchise
-livery_scheme_wt[56] = track
+livery_scheme_wt[56][0] = track
 retire_year[56] = 2999
 retire_month[56] = 9
 livery[56][0] = Northern-Spirit
@@ -1969,7 +1973,7 @@ intro_year[56][3] = 2016
 intro_month[56][3] = 4
 
 livery_scheme[57] = Strathclyde
-livery_scheme_wt[57] = track
+livery_scheme_wt[57][0] = track
 retire_year[57] = 2008
 retire_month[57] = 9
 livery[57][0] = Trans-Clyde
@@ -1986,7 +1990,7 @@ intro_year[57][3] = 2006
 intro_month[57][3] = 4
 
 livery_scheme[58] = Transport-Scotland
-livery_scheme_wt[58] = road
+livery_scheme_wt[58][0] = road
 retire_year[58] = 2999
 retire_month[58] = 9
 livery[58][0] = Saltire
@@ -1994,7 +1998,7 @@ intro_year[58][0] = 2008
 intro_month[58][0] = 9
 
 livery_scheme[59] = Go-Ahead-London
-livery_scheme_wt[59] = road
+livery_scheme_wt[59][0] = road
 retire_year[59] = 2999
 retire_month[59] = 11
 livery[59][0] = London-Central
@@ -2005,7 +2009,8 @@ intro_year[59][1] = 2008
 intro_month[59][1] = 8
 
 livery_scheme[60] = GMPTE
-#livery_scheme_wt[60] = none
+livery_scheme_wt[60][0] = road
+livery_scheme_wt[60][1] = track
 retire_year[60] = 2999
 retire_month[60] = 9
 livery[60][0] = SELNEC
@@ -2027,7 +2032,8 @@ intro_year[60][4] = 2011
 intro_month[60][4] = 4
 
 livery_scheme[61] = Arriva
-#livery_scheme_wt[61] = none
+livery_scheme_wt[61][0] = road
+livery_scheme_wt[61][1] = track
 retire_year[61] = 2999
 retire_month[61] = 12
 livery[61][0] = Arriva-original
@@ -2038,7 +2044,7 @@ intro_year[61][1] = 2008
 intro_month[61][1] = 12
 
 livery_scheme[62] = Anglia
-#livery_scheme_wt[62] = none
+livery_scheme_wt[62][0] = track
 retire_year[62] = 2999
 retire_month[62] = 12
 livery[62][0] = Anglia-original
@@ -2055,7 +2061,7 @@ intro_year[62][3] = 2012
 intro_month[62][3] = 2
 
 livery_scheme[63] = South-Central
-livery_scheme_wt[63] = track
+livery_scheme_wt[63][0] = track
 retire_year[63] = 2999
 retire_month[63] = 12
 livery[63][0] = Connex-South-Central
@@ -2066,7 +2072,7 @@ intro_year[63][1] = 2001
 intro_month[63][1] = 8
 
 livery_scheme[64] = SWT
-livery_scheme_wt[64] = track
+livery_scheme_wt[64][0] = track
 retire_year[64] = 2999
 retire_month[64] = 12
 livery[64][0] = SWT-orange-stripe
@@ -2083,7 +2089,7 @@ intro_year[65][3] = 2017
 intro_month[65][3] = 8
 
 livery_scheme[65] = Hull-Trains
-livery_scheme_wt[65] = track
+livery_scheme_wt[65][0] = track
 retire_year[65] = 2008
 retire_month[65] = 6
 livery[65][0] = HullTrains
@@ -2091,7 +2097,7 @@ intro_year[65][0] = 2000
 intro_month[65][0] = 12
 
 livery_scheme[66] = East-Midlands
-livery_scheme_wt[66] = track
+livery_scheme_wt[66][0] = track
 retire_year[66] = 2999
 retire_month[66] = 1
 livery[66][0] = Midland-Mainline
@@ -2102,7 +2108,7 @@ intro_year[66][1] = 2007
 intro_month[66][1] = 11
 
 livery_scheme[67] = South-Eastern
-livery_scheme_wt[67] = track
+livery_scheme_wt[67][0] = track
 retire_year[67] = 2999
 retire_month[67] = 1
 livery[67][0] = Connex-South-Eastern
@@ -2119,7 +2125,7 @@ intro_year[67][3] = 2015
 intro_month[67][3] = 5
 
 livery_scheme[68] = Gatwick-Express
-livery_scheme_wt[68] = track
+livery_scheme_wt[68][0] = track
 retire_year[68] = 2999
 retire_month[68] = 1
 # This is put as a single livery on the basis that no one type of rolling stock has ever carried more than one type of Gatwick Express livery
@@ -2128,7 +2134,7 @@ intro_year[68][0] = 1984
 intro_month[68][0] = 5
 
 livery_scheme[69] = Heathrow-Express
-livery_scheme_wt[69] = track
+livery_scheme_wt[69][0] = track
 retire_year[69] = 2999
 retire_month[69] = 1
 # Includes Heathrow Connect as no one vehicle operates both types of service.
@@ -2137,7 +2143,7 @@ intro_year[69][0] = 1998
 intro_month[69][0] = 6
 
 livery_scheme[70] = London-General
-#livery_scheme_wt[70] = none
+livery_scheme_wt[70][0] = road
 retire_year[70] = 1933
 retire_month[70] = 1
 # The all over dark red livery
@@ -2154,7 +2160,7 @@ intro_month[70][2] = 5
 
 # http://www.aim25.ac.uk/cgi-bin/vcdf/detail?coll_id=13315&inst_id=118
 livery_scheme[71] = East-Surrey
-livery_scheme_wt[71] = road
+livery_scheme_wt[71][0] = road
 retire_year[71] = 1932
 retire_month[71] = 5
 livery[71][0] = E-Surrey-Blue
@@ -2165,7 +2171,7 @@ intro_year[71][1] = 1923
 intro_month[71][1] = 6
 
 livery_scheme[72] = Tilling
-livery_scheme_wt[72] = road
+livery_scheme_wt[72][0] = road
 retire_year[72] = 1969
 retire_month[72] = 1
 livery[72][0] = Tilling-early
@@ -2184,7 +2190,7 @@ intro_month[72][1] = 5
 # See the below for information on the two different types of London Country liveries in the 1930s
 # http://www.countrybus.org/STL/STL07.htm
 livery_scheme[73] = London-Country
-#livery_scheme_wt[73] = none
+livery_scheme_wt[73][0] = road
 retire_year[73] = 1972
 retire_month[73] = 4
 livery[73][0] = LT-Green
@@ -2202,7 +2208,7 @@ intro_month[73][3] = 1
 
 # https://en.wikipedia.org/wiki/Green_Line_Coaches
 livery_scheme[74] = Green-Line
-livery_scheme_wt[74] = road
+livery_scheme_wt[74][0] = road
 retire_year[74] = 1972
 retire_month[74] = 4
 livery[74][0] = Green-Line-Coaches
@@ -2215,7 +2221,7 @@ intro_month[74][1] = 3
 
 # https://en.wikipedia.org/wiki/National_Bus_Company_(UK)#Corporate_identity
 livery_scheme[75] = National-Red
-livery_scheme_wt[75] = road
+livery_scheme_wt[75][0] = road
 retire_year[75] = 1988
 retire_month[75] = 4
 livery[75][0] = Poppy-Red
@@ -2224,7 +2230,7 @@ intro_month[75][0] = 4
 
 # https://en.wikipedia.org/wiki/National_Bus_Company_(UK)#Corporate_identity
 livery_scheme[76] = National-Green
-livery_scheme_wt[76] = road
+livery_scheme_wt[76][0] = road
 retire_year[76] = 1988
 retire_month[76] = 4
 livery[76][0] = Leaf-Green
@@ -2233,7 +2239,7 @@ intro_month[76][0] = 4
 
 # https://en.wikipedia.org/wiki/National_Bus_Company_(UK)#Corporate_identity
 livery_scheme[77] = National-Express
-#livery_scheme_wt[77] = none
+livery_scheme_wt[77][0] = road
 retire_year[77] = 2999
 retire_month[77] = 12
 livery[77][0] = NE-White
@@ -2258,7 +2264,7 @@ intro_month[77][4] = 4
 # https://en.wikipedia.org/wiki/Royal_Blue_Coach_Services
 # No readily findable information about different liveries
 livery_scheme[78] = Royal-Blue
-livery_scheme_wt[78] = road
+livery_scheme_wt[78][0] = road
 retire_year[78] = 1972
 retire_month[78] = 4
 livery[78][0] = Royal-Blue-standard
@@ -2268,7 +2274,7 @@ intro_month[78][0] = 5
 # https://en.wikipedia.org/wiki/Southdown_Motor_Services
 # No readily findable information about different liveries
 livery_scheme[79] = Southdown
-livery_scheme_wt[79] = road
+livery_scheme_wt[79][0] = road
 retire_year[79] = 1972
 retire_month[79] = 4
 livery[79][0] = Southdown-standard
@@ -2286,7 +2292,7 @@ intro_year[80][0] = 1919
 intro_month[80][0] = 3
 
 livery_scheme[81] = Ribble-Express
-livery_scheme_wt[81] = road
+livery_scheme_wt[81][0] = road
 retire_year[81] = 1972
 retire_month[81] = 4
 livery[81][0] = Ribble-coach
@@ -2294,8 +2300,8 @@ intro_year[81][0] = 1919
 intro_month[81][0] = 3
 
 livery_scheme[82] = Glasgow
-#livery_scheme_wt[82] = road
-#livery_scheme_wt[82] = tram_track
+livery_scheme_wt[82][0] = road
+livery_scheme_wt[82][1] = tram_track
 retire_year[82] = 2999
 retire_month[82] = 12
 # https://en.wikipedia.org/wiki/Glasgow_Corporation_Tramways
@@ -2326,7 +2332,7 @@ intro_year[82][6] = 1996
 intro_month[82][6] = 4
 
 livery_scheme[83] = Bradford
-livery_scheme_wt[83] = road
+livery_scheme_wt[83][0] = road
 retire_year[83] = 1974
 retire_month[83] = 4
 livery[83][0] = Bradford-standard
@@ -2336,8 +2342,8 @@ intro_month[83][0] = 5
 
 # The 'buses seem only to have used the green livery.
 livery_scheme[84] = WYPTE
-#livery_scheme_wt[84] = road
-#livery_scheme_wt[84] = track
+livery_scheme_wt[84][0] = road
+livery_scheme_wt[84][1] = track
 retire_year[84] = 2999
 retire_month[84] = 9
 livery[84][0] = WYPTE-Green-Cream
@@ -2358,7 +2364,7 @@ intro_year[84][4] = 2008
 intro_month[84][4] = 5
 
 livery_scheme[85] = London-United
-livery_scheme_wt[85] = road
+livery_scheme_wt[85][0] = road
 retire_year[85] = 2999
 retire_month[85] = 9
 livery[85][0] = London-United-grey-white
@@ -2370,7 +2376,7 @@ intro_year[85][1] = 2008
 intro_month[85][1] = 2
 
 livery_scheme[86] = Metroline
-livery_scheme_wt[86] = road
+livery_scheme_wt[86][0] = road
 retire_year[86] = 2999
 retire_month[86] = 9
 livery[86][0] = Metroline-blue-skirt
@@ -2382,7 +2388,7 @@ intro_year[86][1] = 2008
 intro_month[86][1] = 2
 
 livery_scheme[87] = Grey-Green
-livery_scheme_wt[87] = road
+livery_scheme_wt[87][0] = road
 retire_year[87] = 1998
 retire_month[87] = 10
 # TODO: Find more liveries for this scheme.
@@ -2391,7 +2397,7 @@ intro_year[87][0] = 1928
 intro_month[87][0] = 6
 
 livery_scheme[88] = Railfreight
-livery_scheme_wt[88] = track
+livery_scheme_wt[88][0] = track
 retire_year[88] = 1994
 retire_month[88] = 1
 livery[88][0] = Railfreight-grey
@@ -2402,7 +2408,7 @@ intro_year[88][1] = 1987
 intro_month[88][1] = 2
 
 livery_scheme[89] = Trainload-Freight
-livery_scheme_wt[89] = track
+livery_scheme_wt[89][0] = track
 retire_year[89] = 1994
 retire_month[89] = 1
 livery[89][0] = TF-Two-tone-grey
@@ -2410,7 +2416,7 @@ intro_year[89][0] = 1987
 intro_month[89][0] = 2
 
 livery_scheme[90] = Virgin-Trains
-livery_scheme_wt[90] = track
+livery_scheme_wt[90][0] = track
 retire_year[90] = 2999
 retire_month[90] = 12
 livery[90][0] = Virgin-original
@@ -2428,7 +2434,7 @@ intro_month[90][3] = 9
 
 # See http://www.gwr.org.uk/liveries.html
 livery_scheme[91] = GWR
-livery_scheme_wt[91] = track
+livery_scheme_wt[91][0] = track
 retire_year[91] = 1948
 retire_month[91] = 1
 livery[91][0] = GWR-early
@@ -2459,7 +2465,7 @@ intro_month[91][6] = 2
 # http://www.bartonhistory.co.uk/bartons-railway/the-birmingham-and-derby-junction-railway/
 # Very limited information on this livery, especially for locomotives.
 livery_scheme[92] = B&DJR
-livery_scheme_wt[92] = track
+livery_scheme_wt[92][0] = track
 retire_year[92] = 1844
 retire_month[92] = 11
 livery[92][0] = B&DJR-standard
@@ -2472,7 +2478,7 @@ intro_month[92][0] = 5
 # "red sides and black lining, frame and wheels" for open third (second?) class carriages.
 # Assume a similar green for locomotives unless contrary information becomes available.
 livery_scheme[93] = MCR
-livery_scheme_wt[93] = track
+livery_scheme_wt[93][0] = track
 retire_year[93] = 1844
 retire_month[93] = 11
 livery[93][0] = MCR-standard
@@ -2482,7 +2488,7 @@ intro_month[93][0] = 6
 # https://d3d00swyhr67nd.cloudfront.net/w1200h1200/NY/NY_NRM_1976_9292.jpg
 # See "Britain's railway liveries" by Earnest F. Carter p. 233
 livery_scheme[94] = London-&-Birmingham
-livery_scheme_wt[94] = track
+livery_scheme_wt[94][0] = track
 retire_year[94] = 1846
 retire_month[94] = 1
 # Carriages (first class): buff lowers, black uppers;
@@ -2493,7 +2499,7 @@ intro_month[94][0] = 7
 
 # See Carter, p. 249
 livery_scheme[95] = Stockton-Darlington
-livery_scheme_wt[95] = track
+livery_scheme_wt[95][0] = track
 retire_year[95] = 1863
 retire_month[95] = 7
 # Yellow (and black?) carriages
@@ -2508,7 +2514,7 @@ intro_month[95][1] = 2
 # See Carter, p. 182
 # Assume carriages varnished as they were later
 livery_scheme[96] = NLR
-livery_scheme_wt[96] = track
+livery_scheme_wt[96][0] = track
 retire_year[96] = 1923
 retire_month[96] = 1
 # Green locomotives, lined in black
@@ -2523,7 +2529,7 @@ intro_month[96][1] = 11
 # Inverness & Aberdeen Junction Railway
 # See below under Highland Railway for references
 livery_scheme[97] = I&AJR
-livery_scheme_wt[97] = track
+livery_scheme_wt[97][0] = track
 retire_year[97] = 1865
 retire_month[97] = 2
 # Inverness & Aberdeen Jn. Railway
@@ -2545,7 +2551,7 @@ intro_month[97][1] = 1
 # See also, "A history of Highland locomotives"
 # by Peter Tatlow, p. 9 onwards
 livery_scheme[98] = HR
-livery_scheme_wt[98] = track
+livery_scheme_wt[98][0] = track
 retire_year[98] = 1865
 retire_month[98] = 2
 # Locomotives dark green, black bands
@@ -2596,7 +2602,7 @@ intro_year[98][6] = 1902
 intro_month[98][6] = 2
 
 livery_scheme[99] = LMS-Coronation-Scot
-livery_scheme_wt[99] = track
+livery_scheme_wt[99][0] = track
 retire_year[99] = 1939
 retire_month[99] = 9
 livery[99][0] = LMS-Blue
@@ -2610,7 +2616,7 @@ intro_month[99][0] = 6
 # use the BR livery scheme.
 # by Earnest F. Carter p. 281
 livery_scheme[100] = Pullman
-livery_scheme_wt[100] = narrowgauge_track
+livery_scheme_wt[100][0] = narrowgauge_track
 retire_year[100] = 2500
 retire_month[100] = 12
 livery[100][0] = Pullman-Mahogany
@@ -2631,19 +2637,10 @@ intro_month[100][3] = 7
 # Locomotives are described as "dark emerald green" with orange lining
 # See also: http://www.009.cd2.com/lynton_and_barnstaple_modelling/liveries.htm
 livery_scheme[101] = L&BR
-livery_scheme_wt[101] = narrowgauge_track
-#livery_scheme_wt[101] = track
+livery_scheme_wt[101][0] = narrowgauge_track
+livery_scheme_wt[101][1] = track
 retire_year[101] = 1923
 retire_month[101] = 1
 livery[101][0] = L&BR-Standard
 intro_year[101][0] = 1898
 intro_month[101][0] = 5
-
-livery_scheme[102] = L&BR
-#livery_scheme_wt[102] = narrowgauge_track
-livery_scheme_wt[102] = track
-retire_year[102] = 1923
-retire_month[102] = 1
-livery[102][0] = L&BR-Standard
-intro_year[102][0] = 1898
-intro_month[102][0] = 5
